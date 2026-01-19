@@ -1,10 +1,9 @@
-```md
 # Server Ports — Quick Notes
 
 ```text
-╔══════════════════════════════════════════════════════════════════════╗
-║                    SERVER PORTS — QUICK NOTES                         ║
-╚══════════════════════════════════════════════════════════════════════╝
+┌──────────────────────────────────────────────────────────────┐
+│                    SERVER PORTS — QUICK NOTES                │
+└──────────────────────────────────────────────────────────────┘
 
 1) What is the definition of a server port?
 ------------------------------------------------------------
@@ -18,8 +17,8 @@ network using transport protocols such as TCP or UDP.
 ------------------------------------------------------------
 Port range: 0 to 65,535
 
-0–1023     — Well-known ports
-1024–49151 — Registered ports
+0–1023      — Well-known ports
+1024–49151  — Registered ports
 49152–65535 — Dynamic / private ports
 
 3) How many bits does the number above represent?

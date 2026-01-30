@@ -1,0 +1,15 @@
+olegsanitskii@-------------:/mnt/c/Users/Oleg Sanitskii$ ping 167.99.181.255
+PING 167.99.181.255 (167.99.181.255) 56(84) bytes of data.
+64 bytes from 167.99.181.255: icmp_seq=1 ttl=51 time=13.4 ms
+64 bytes from 167.99.181.255: icmp_seq=2 ttl=51 time=7.04 ms
+64 bytes from 167.99.181.255: icmp_seq=3 ttl=51 time=5.91 ms
+64 bytes from 167.99.181.255: icmp_seq=4 ttl=51 time=5.85 ms
+64 bytes from 167.99.181.255: icmp_seq=5 ttl=51 time=6.72 ms
+64 bytes from 167.99.181.255: icmp_seq=6 ttl=51 time=9.51 ms
+64 bytes from 167.99.181.255: icmp_seq=7 ttl=51 time=7.40 ms
+64 bytes from 167.99.181.255: icmp_seq=8 ttl=51 time=6.55 ms
+64 bytes from 167.99.181.255: icmp_seq=9 ttl=51 time=7.62 ms
+^C
+--- 167.99.181.255 ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8014ms
+rtt min/avg/max/mdev = 5.848/7.778/13.395/2.238 ms

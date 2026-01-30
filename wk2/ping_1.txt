@@ -1,0 +1,25 @@
+========================================================================
+PING google.com (192.178.192.100) 56(84) bytes of data.
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=1 ttl=113 time=2.91 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=2 ttl=113 time=2.37 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=3 ttl=113 time=2.36 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=4 ttl=113 time=2.39 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=5 ttl=113 time=2.34 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=6 ttl=113 time=2.37 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=7 ttl=113 time=2.34 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=8 ttl=113 time=2.44 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=9 ttl=113 time=12.6 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=10 ttl=113 time=2.41 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=11 ttl=113 time=2.60 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=12 ttl=113 time=2.40 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=13 ttl=113 time=2.44 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=14 ttl=113 time=2.37 ms
+64 bytes from lcyyzn-in-f100.1e100.net (192.178.192.100): icmp_seq=15 ttl=113 time=2.43 ms
+^C
+--- google.com ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14021ms
+rtt min/avg/max/mdev = 2.336/3.118/12.620/2.543 ms
+========================================================================
+
+
+

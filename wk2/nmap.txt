@@ -1,0 +1,121 @@
+---------------------------------------------------------------------------------
+Nmap Scan Report
+Target: google.com
+Resolved IP: 142.250.137.139
+Scan Date (UTC): 2026-01-30 07:43
+
+Host Status:
+- Host is up
+- Latency: ~0.0034 s
+
+Reverse DNS:
+- pnyyzb-in-f139.1e100.net
+
+Open Ports:
+--------------------------------
+PORT     STATE   SERVICE
+80/tcp   open    http
+443/tcp  open    https
+--------------------------------
+
+Filtered Ports:
+- 998 TCP ports filtered (no response)
+
+Scan Summary:
+- 1 IP address scanned
+- Scan duration: 4.56 seconds
+---------------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------
+Nmap Scan Report
+Target: amazon.com
+Resolved IP: 98.87.170.74
+Scan Date (UTC): 2026-01-30 07:45
+
+Host Status:
+- Host is up
+- Latency: ~0.021 s
+
+Reverse DNS:
+- ec2-98-87-170-74.compute-1.amazonaws.com
+
+Scanned Ports:
+--------------------------------
+PORT     STATE   SERVICE
+80/tcp   open    http
+--------------------------------
+
+Scan Summary:
+- 1 IP address scanned
+- Scan duration: 0.14 seconds
+---------------------------------------------------------------------------------
+
+
+
+
+
+
+---------------------------------------------------------------------------------
+Nmap Scan Report
+Target: microsoft.com
+Resolved IP: 13.107.213.35
+Scan Date (UTC): 2026-01-30 07:46
+
+Host Status:
+- Host is up
+- Latency: ~0.0035 s
+
+Scanned Port Range:
+- TCP ports 20–100
+
+Open Ports:
+--------------------------------
+PORT     STATE   SERVICE
+80/tcp   open    http
+--------------------------------
+
+Filtered Ports:
+- 80 TCP ports filtered (no response)
+
+Scan Summary:
+- 1 IP address scanned
+- Scan duration: 1.68 seconds
+---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------
+
+Nmap Scan Report
+Target: openai.com
+Resolved IP: 104.18.33.45
+Scan Date (UTC): 2026-01-30 07:47
+
+Host Status:
+- Host is up
+- Latency: ~0.0030 s
+
+Fast Scan Results:
+--------------------------------
+PORT      STATE   SERVICE
+80/tcp    open    http
+443/tcp   open    https
+8080/tcp  open    http-proxy
+8443/tcp  open    https-alt
+--------------------------------
+
+Filtered Ports:
+- 96 TCP ports filtered (no response)
+
+Scan Summary:
+- 1 IP address scanned
+- Scan duration: 1.69 seconds
+---------------------------------------------------------------------------------
+
+

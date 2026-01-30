@@ -1,0 +1,139 @@
+====================================
+Domain: netflix.com
+
+IPv4 addresses:
+- 54.73.148.110
+- 54.155.246.232
+- 18.200.8.190
+
+Geolocation (for all listed IPs):
+Country: Ireland
+State/Region: Dublin
+City: Dublin
+
+Network details:
+ISP / Organization: Amazon Web Services (AWS)
+ASN: 16509
+Service type: Data Center / Transit
+
+Hostnames:
+- ec2-54-73-148-110.eu-west-1.compute.amazonaws.com
+- ec2-54-155-246-232.eu-west-1.compute.amazonaws.com
+- ec2-18-200-8-190.eu-west-1.compute.amazonaws.com
+
+Sources:
+- IP lookup: nslookup.io
+- Geolocation: ip2location.com
+====================================
+
+
+
+
+
+====================================
+Domain: reddit.com
+
+IPv4 addresses:
+- 151.101.1.140
+- 151.101.193.140
+- 151.101.65.140
+- 151.101.129.140
+
+Geolocation (for all listed IPs):
+Country: United States
+State/Region: California
+City: San Francisco
+
+Network details:
+ISP / Organization: Fastly Inc.
+ASN: 54113
+Service type: Data Center / Transit (CDN)
+
+Sources:
+- IP lookup: nslookup.io
+- Geolocation: ip2location.com
+====================================
+
+
+
+
+
+====================================
+Domain: github.com
+
+IPv4 address:
+- 140.82.121.4
+
+Geolocation:
+Country: Germany
+State/Region: Hesse
+City: Frankfurt am Main
+
+Network details:
+ISP / Organization: GitHub, Inc.
+ASN: 36459
+Service type: Data Center / Transit (CDN / Anycast)
+
+Hostname:
+- lb-140-82-121-4-fra.github.com
+
+Notes:
+This IP address is part of GitHub’s global CDN infrastructure.
+Geolocation may vary depending on the nearest edge location.
+
+Sources:
+- IP lookup: nslookup.io
+- Geolocation: ipinfo.io, DB-IP
+====================================
+
+
+
+
+====================================
+Domain: cnn.com
+
+IPv4 addresses:
+- 151.101.67.5
+- 151.101.195.5
+- 151.101.3.5
+- 151.101.131.5
+
+Geolocation (for all listed IPs):
+Country: United States
+State/Region: California
+City: San Francisco
+
+Network details:
+ISP / Organization: Fastly Inc.
+ASN: 54113
+Service type: Data Center / Transit (CDN)
+
+Sources:
+- IP lookup: nslookup.io
+====================================
+
+
+
+
+====================================
+Domain: bbc.com
+
+IPv4 addresses:
+- 151.101.0.81
+- 151.101.64.81
+- 151.101.128.81
+- 151.101.192.81
+
+Geolocation (for all listed IPs):
+Country: United States
+State/Region: California
+City: San Francisco
+
+Network details:
+ISP / Organization: Fastly Inc.
+ASN: 54113
+Service type: Data Center / Transit (CDN)
+
+Sources:
+- IP lookup: nslookup.io
+====================================

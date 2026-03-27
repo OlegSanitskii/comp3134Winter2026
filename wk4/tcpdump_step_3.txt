@@ -1,0 +1,7 @@
+Command: sudo tcpdump -i any tcp -c 5
+Output:
+23:07:58.358321 eth0  Out IP 172.20.173.182.36826 > lcyyzb-in-f113.1e100.net.http: Flags [S], seq 4224762762, win 64240, options [mss 1460,sackOK,TS val 879258287 ecr 0,nop,wscale 7], length 0
+23:07:58.364455 eth0  In  IP lcyyzb-in-f113.1e100.net.http > 172.20.173.182.36826: Flags [S.], seq 3882545687, ack 4224762763, win 65535, options [mss 1412,sackOK,TS val 994651970 ecr 879258287,nop,wscale 8], length 0
+23:07:58.364596 eth0  Out IP 172.20.173.182.36826 > lcyyzb-in-f113.1e100.net.http: Flags [.], ack 1, win 502, options [nop,nop,TS val 879258293 ecr 994651970], length 0
+23:07:58.364640 eth0  Out IP 172.20.173.182.36826 > lcyyzb-in-f113.1e100.net.http: Flags [P.], seq 1:75, ack 1, win 502, options [nop,nop,TS val 879258293 ecr 994651970], length 74: HTTP: GET / HTTP/1.1
+23:07:58.368962 eth0  In  IP lcyyzb-in-f113.1e100.net.http > 172.20.173.182.36826: Flags [.], ack 75, win 1050, options [nop,nop,TS val 994651976 ecr 879258293], length 0

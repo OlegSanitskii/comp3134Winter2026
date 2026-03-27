@@ -1,0 +1,7 @@
+Command: sudo tcpdump -i any port 80 -c 5
+Output:
+23:11:32.500223 eth0  Out IP 172.20.173.182.51458 > pnyyzb-in-f100.1e100.net.http: Flags [S], seq 2541886115, win 64240, options [mss 1460,sackOK,TS val 2211155743 ecr 0,nop,wscale 7], length 0
+23:11:32.507004 eth0  In  IP pnyyzb-in-f100.1e100.net.http > 172.20.173.182.51458: Flags [S.], seq 2693075417, ack 2541886116, win 65535, options [mss 1412,sackOK,TS val 1623502943 ecr 2211155743,nop,wscale 8], length 0
+23:11:32.507108 eth0  Out IP 172.20.173.182.51458 > pnyyzb-in-f100.1e100.net.http: Flags [.], ack 1, win 502, options [nop,nop,TS val 2211155750 ecr 1623502943], length 0
+23:11:32.507180 eth0  Out IP 172.20.173.182.51458 > pnyyzb-in-f100.1e100.net.http: Flags [P.], seq 1:75, ack 1, win 502, options [nop,nop,TS val 2211155750 ecr 1623502943], length 74: HTTP: GET / HTTP/1.1
+23:11:32.511638 eth0  In  IP pnyyzb-in-f100.1e100.net.http > 172.20.173.182.51458: Flags [.], ack 75, win 1050, options [nop,nop,TS val 1623502949 ecr 2211155750], length 0

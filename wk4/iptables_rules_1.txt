@@ -1,0 +1,37 @@
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DOCKER-USER  all  --  any    any     anywhere             anywhere            
+    0     0 DOCKER-ISOLATION-STAGE-1  all  --  any    any     anywhere             anywhere            
+    0     0 ACCEPT     all  --  any    docker0  anywhere             anywhere             ctstate RELATED,ESTABLISHED
+    0     0 DOCKER     all  --  any    docker0  anywhere             anywhere            
+    0     0 ACCEPT     all  --  docker0 !docker0  anywhere             anywhere            
+    0     0 ACCEPT     all  --  docker0 docker0  anywhere             anywhere            
+    0     0 ACCEPT     all  --  any    br-9e6625648138  anywhere             anywhere             ctstate RELATED,ESTABLISHED
+    0     0 DOCKER     all  --  any    br-9e6625648138  anywhere             anywhere            
+    0     0 ACCEPT     all  --  br-9e6625648138 !br-9e6625648138  anywhere             anywhere            
+    0     0 ACCEPT     all  --  br-9e6625648138 br-9e6625648138  anywhere             anywhere            
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain DOCKER (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain DOCKER-ISOLATION-STAGE-1 (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DOCKER-ISOLATION-STAGE-2  all  --  docker0 !docker0  anywhere             anywhere            
+    0     0 DOCKER-ISOLATION-STAGE-2  all  --  br-9e6625648138 !br-9e6625648138  anywhere             anywhere            
+    0     0 RETURN     all  --  any    any     anywhere             anywhere            
+
+Chain DOCKER-ISOLATION-STAGE-2 (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  any    docker0  anywhere             anywhere            
+    0     0 DROP       all  --  any    br-9e6625648138  anywhere             anywhere            
+    0     0 RETURN     all  --  any    any     anywhere             anywhere            
+
+Chain DOCKER-USER (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 RETURN     all  --  any    any     anywhere             anywhere            

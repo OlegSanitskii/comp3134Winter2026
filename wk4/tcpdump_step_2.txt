@@ -1,0 +1,7 @@
+Command: sudo tcpdump -i any -c 5
+Output:
+23:04:50.383331 eth0  Out IP 172.20.173.182 > dns.google: ICMP echo request, id 3, seq 1, length 64
+23:04:50.389862 eth0  In  IP dns.google > 172.20.173.182: ICMP echo reply, id 3, seq 1, length 64
+23:04:50.476963 lo    In  IP 10.255.255.254.59836 > 10.255.255.254.domain: 16352+ PTR? 8.8.8.8.in-addr.arpa. (38)
+23:04:50.487046 lo    In  IP 10.255.255.254.domain > 10.255.255.254.59836: 16352 1/0/0 PTR dns.google. (62)
+23:04:50.487408 lo    In  IP 10.255.255.254.53190 > 10.255.255.254.domain: 39291+ PTR? 182.173.20.172.in-addr.arpa. (45)

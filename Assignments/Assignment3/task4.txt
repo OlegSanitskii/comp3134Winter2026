@@ -1,0 +1,8 @@
+Command:
+hping3 -S --count 1000 -p 80 -s 3500 147.182.144.203
+
+Output:
+HPING 147.182.144.203 (eth0 147.182.144.203): S set, 40 headers + 0 data bytes
+
+803 packets transmitted, 1000 packets received, -24% packet loss
+round-trip min/avg/max = 2.0/10838.0/59180.3 ms

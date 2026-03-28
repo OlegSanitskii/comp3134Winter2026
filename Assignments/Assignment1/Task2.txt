@@ -1,0 +1,59 @@
+Domain Name:
+google.com
+
+==================================================
+Domain Registration Information (WHOIS / RDAP)
+==================================================
+
+Registrar:
+MarkMonitor Inc.
+(IANA Registrar ID: 292)
+
+Registration Date:
+September 15, 1997
+
+Expiration Date:
+September 14, 2028
+
+Domain Status:
+- clientDeleteProhibited
+- clientTransferProhibited
+- clientUpdateProhibited
+- serverDeleteProhibited
+- serverTransferProhibited
+- serverUpdateProhibited
+
+DNSSEC:
+Not enabled (delegation not signed)
+
+Name Servers:
+- NS1.GOOGLE.COM
+- NS2.GOOGLE.COM
+- NS3.GOOGLE.COM
+- NS4.GOOGLE.COM
+
+==================================================
+Hosting Information
+==================================================
+
+Resolved IPv4 Address:
+142.250.179.142
+
+Resolved IPv6 Address:
+2a00:1450:400e:806::200e
+
+Hosting Provider:
+Google LLC
+
+Autonomous System (ASN):
+AS15169
+
+AS Name:
+Google
+
+Server Location:
+Amsterdam, Noord-Holland, Netherlands
+
+Notes:
+The domain google.com is hosted on Google’s own global infrastructure.
+DNS resolution may return different IP addresses depending on the client’s geographic location due to load balancing.

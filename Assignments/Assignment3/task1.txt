@@ -1,0 +1,24 @@
+Domain: youtube.com
+Cookie Name: VISITOR_INFO1_LIVE
+Cookie Value: 7uJ2M6V6eYA
+Cookie Path: /
+
+Domain: amazon.ca
+Cookie Name: session-id
+Cookie Value: 133-2796054-4002901
+Cookie Path: /
+
+Domain: google.com
+Cookie Name: NID
+Cookie Value: 530=Divs7CnQ0vqKtDPZSCSRedmIB9xAeLWCSNcNYjsrGEcyzVF1uU4FFRpF_HrWLF-x8B6Ij-iedKzz7LMCgcGEY_kmuFToZ-2UJ_NV_w-FaLe1fNO
+Cookie Path: /
+
+Domain: facebook.com
+Cookie Name: c_user
+Cookie Value: 100012609464722
+Cookie Path: /
+
+Domain: worldoftanks.com
+Cookie Name: _ga
+Cookie Value: GA1.1.1106679767.1774538814
+Cookie Path: /

@@ -1,0 +1,31 @@
+Domain: canada.ca
+
+Hidden Inputs:
+pageTitle = Canada Revenue Agency (CRA) - Canada.ca
+language = en
+submissionPage = https://www.canada.ca/en/revenue-agency.html
+oppositelang = /fr/agence-revenu.html
+
+Form Method: POST
+
+
+Domain: amazon.ca
+
+Hidden Inputs:
+glow-validation-token = hO7ZlKQZFpmSGzLGZidjKoC6AvohLd2xoETlic6dx3oFAAAA
+glow-destination-type = DEFAULT_ADDRESS
+dropdown-selection = losjroljtqk
+dropdown-selection-ubb = losjroljtqk
+
+Form Method: POST
+
+
+Domain: github.com
+
+Hidden Inputs:
+authenticity_token = w1jKYJgHDchYq1fmn6g2qsmC10QMd4
+data-csrf = true
+source = form-home-signup
+type = hidden
+
+Form Method: POST

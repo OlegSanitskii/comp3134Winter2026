@@ -1,0 +1,38 @@
+SQL Vulnerabilities Summary
+
+1) Input: Ben
+
+Observation:
+When I entered Ben, the page returned only the active user whose first name is Ben.
+
+Was this expected?
+Yes, this was expected.
+
+Explanation:
+The query searched for rows where firstname = 'Ben' and active = 1, so only the active Ben record was shown.
+
+
+2) Input: Ben'-- 
+
+Observation:
+When I entered Ben'-- , the page returned both Ben records, including the inactive one.
+
+Was this expected?
+No, this was not expected from a secure application, but it was expected for a vulnerable query.
+
+Explanation:
+The single quote closed the string, and the double dash commented out the rest of the SQL statement.
+Because of that, the condition AND active = 1 was ignored.
+
+
+3) Input: Ben' or 1=1 -- 
+
+Observation:
+When I entered Ben' or 1=1 -- , the page returned all rows from the users table.
+
+Was this expected?
+No, this was not expected from a secure application, but it is expected when SQL injection is possible.
+
+Explanation:
+The injected condition OR 1=1 is always true, so the WHERE clause matched all rows.
+The comment sequence ignored the rest of the original SQL query.

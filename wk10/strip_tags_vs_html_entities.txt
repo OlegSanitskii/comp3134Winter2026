@@ -1,0 +1,5 @@
+strip_tags removes HTML and PHP tags from the input. For example, if the user enters <b>Hello</b>, the output may become just Hello. This method removes the tags completely.
+
+htmlentities converts special characters into their HTML entity equivalents. For example, < becomes &lt; and > becomes &gt;. This means the browser displays the original input as text instead of interpreting it as HTML or JavaScript.
+
+The main difference is that strip_tags removes tags, while htmlentities preserves the original characters visually but makes them safe to display. htmlentities is usually better when we want to show exactly what the user entered without executing it.

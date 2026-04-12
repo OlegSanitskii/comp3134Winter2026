@@ -1,0 +1,11 @@
+1) Valid English word entered in the form:
+The website correctly processes the input and displays the definition of the word.
+
+2) Invalid English word entered in the URL after /browse/:
+The website does not crash or execute anything. Instead, it shows a "no results" page or suggestions.
+
+3) <script>alert(%27hello%27)</script> entered in the form:
+The website does not execute the script. The input is sanitized or ignored, and no alert is triggered.
+
+4) <script>alert(%27hello%27)</script> entered in the URL:
+The request is blocked by a security service (Cloudflare). The website detects the input as a potential attack and prevents access completely. This demonstrates strong protection against XSS attacks.

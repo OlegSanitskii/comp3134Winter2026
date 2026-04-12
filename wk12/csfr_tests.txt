@@ -1,0 +1,5 @@
+The original CSRF implementation was vulnerable because a forged HTML page could submit a request automatically.
+
+After adding a session confirmation token, only requests with a valid token are accepted.
+
+The protected form in csfr_form.php returns "Valid request", while forged requests without the correct token return "CSRF attack detected!".

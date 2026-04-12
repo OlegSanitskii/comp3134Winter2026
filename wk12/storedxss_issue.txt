@@ -1,0 +1,5 @@
+The application reads data from a file and outputs it directly to the browser without any sanitization or validation. 
+
+This creates a Stored XSS vulnerability, where malicious scripts can be stored in a file and executed automatically whenever the page is accessed. 
+
+As a result, an attacker can inject harmful JavaScript that runs in the user's browser, potentially leading to data theft, session hijacking, or unauthorized actions.
